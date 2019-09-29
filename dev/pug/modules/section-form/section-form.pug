@@ -1,0 +1,30 @@
+section.section-form#form-section
+    .section-form__left
+        h2.section-form__title.text.text_48.text_helveticaB
+            span.text.text_red Принять <br class="mobile-big-br">
+            | участие 
+        form.section-form__form-participate.form-participate(action="#" name="participate")
+            .form-participate__input-wrap
+                label(for="name").form-participate__label.text.text_14 Ваши имя и фамилия
+                input#name(type="text" placeholder="Введите имя" value="Елизавета Немирович-Данченко" required).form-participate__input.input-participate
+
+            .form-participate__input-wrap
+                label(for="company").form-participate__label.text.text_14 Компания
+                input#company(type="text" value="OGGETTO" placeholder="Введите название компании" required).form-participate__input.input-participate
+
+            .form-participate__input-wrap
+                label(for="mail").form-participate__label.text.text_14 E-mail
+                input#mail(type="email" placeholder="Введите почту" required).form-participate__input.input-participate
+
+
+            .form-participate__input-wrap.form-participate__input-wrap_tel
+                input(type="tel" placeholder="Телефон" required).form-participate__input.input-participate
+
+            .form-participate__button-wrapper
+                button(type="submit").btn-registration.button_red.button_red-hover
+                    span.button__text.text.text_20.text_white.text_helveticaM Зарегистрироваться
+
+
+    .section-form__right
+        .section-form__img-wrap
+            img(src="static/images/content/form.jpg", alt="")

@@ -1,0 +1,41 @@
+header.header
+    .header-main
+        .header-main__top
+            .header-main__logo-wrap
+                a(href="index.html").header-main__logo
+                    img.header-main__logo-icon(src="static/images/svg/logo.svg", alt="logo")
+            nav.header-main__navigation.navigation-main
+                ul.navigation-main__list
+                    li.navigation-main__item.navigation-main__item_active
+                        a(href="#").navigation-main__link.link.link_hover.text.text_16.text_white.text_helveticaM О конференции
+                    li.navigation-main__item
+                        a(href="#").navigation-main__link.link.link_hover.text.text_16.text_white.text_helveticaM спикеры
+                    li.navigation-main__item
+                        a(href="#").navigation-main__link.link.link_hover.text.text_16.text_white.text_helveticaM программа
+                    li.navigation-main__item
+                        a(href="#").navigation-main__link.link.link_hover.text.text_16.text_white.text_helveticaM фотогалерея
+                    li.navigation-main__item
+                        a(href="#").navigation-main__link.link.link_hover.text.text_16.text_white.text_helveticaM организаторы
+            
+            .header-main__button-wrap
+                //- desktop button
+                a(href="#form-section")#btn-scroll.button.button_red.button_participate.button_red-hover
+                    span.button__text.text.text_helveticaM.text_14.text_white принять участие
+                //- mobile button
+                a(href="#form-section").button-mobile.button_red
+                    span.button-mobile__text.text.text_16.text_white участвовать
+
+
+        .header-main__content
+            h1.header-main__title.text.text_red.text_82.text_helveticaB Дизайн <br>
+                span.text.text_white.text_helveticaUL конференция
+            p.header-main__description.text.text_white Главное событие в дизайне <br class="desktop-none"> и архитектуре
+            a(href="#form-section").button.button_transparent.button_transparent-hover.button_mobile-transparent
+                span.button__text.text.text_helveticaM.text_14.text_white принять участие
+        .header-main__notification.notification
+            time.notification__date.notification__date_small.text.text_23.text_helveticaB.text_white 7-9 Апреля 2019 <br>
+                span.notification__place.notification__place_small.text.text_14.text_helveticaUL Культурный центр "Зил"
+            .notification__logo
+                span.letter-big ЗИЛ <br>
+                span.letter-small культурный <br>
+                    | центр

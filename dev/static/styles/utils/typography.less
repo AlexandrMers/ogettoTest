@@ -1,0 +1,79 @@
+.text {
+    font-style: normal;
+
+    &_helveticaB {
+        font-family: @HelveticaB;
+    }
+
+    &_helveticaL {
+        font-family: @HelveticaL;
+    }
+
+    &_helveticaM {
+        font-family: @HelveticaM;
+    }
+
+    &_helveticaUL {
+        font-family: @HelveticaUL;
+        font-weight: 300;
+    }
+
+
+    &_black {
+        color: @black;
+    }
+
+    &_white {
+        color: @white;
+    }
+
+    &_red {
+        color: @red;
+    }
+
+    &_14 {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    &_16 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    &_20 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    &_23 {
+        font-size: 23px;
+        line-height: 33px;
+    }
+
+    &_24 {
+        font-size: 24px;
+        line-height: 150%;
+    }
+
+    &_36 {
+        font-size: 36px;
+        line-height: 110%;
+    }
+
+    &_48 {
+        font-size: 48px;
+        line-height: 26px;
+    }
+
+    &_82 {
+        font-size: 82px;
+        line-height: 110%;
+    }
+}
+
+.text-mobile_white {
+    .tablet({
+        color: @white;
+    });
+}

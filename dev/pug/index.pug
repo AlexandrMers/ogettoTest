@@ -1,0 +1,14 @@
+extends template/main
+
+block variables
+	- var title = 'Дизайн конференция'
+	- var pageClass = 'index-page'
+
+block content
+	include modules/section-question/section-question
+	include modules/section-speakers/section-speakers
+	include modules/section-program/section-program
+	include modules/section-photogallery/section-photogallery
+	include modules/section-form/section-form
+	
+	
